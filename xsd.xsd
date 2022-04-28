@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="tankopedie">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="tanky">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="kategorie">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="tank">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nazev" type="xs:string" />
+                          <xs:element name="vyrobce" type="xs:string" />
+                          <xs:element name="delo" type="xs:string" />
+                          <xs:element name="uloha" type="xs:string" />
+                          <xs:element name="rychlost_strelby" type="xs:string" />
+                          <xs:element name="hmotnost" type="xs:string" />
+                          <xs:element name="nosnost" type="xs:string" />
+                          <xs:element name="vykon_motoru" type="xs:string" />
+                          <xs:element name="merný_vykon" type="xs:string" />
+                          <xs:element name="puvod" type="xs:string" />
+                          <xs:element name="maximalni_rychlost" type="xs:string" />
+                          <xs:element name="rychlost_otaceni" type="xs:string" />
+                          <xs:element name="rychlost_rotace_veze" type="xs:string" />
+                          <xs:element name="kapacita_munice" type="xs:string" />
+                          <xs:element name="pancir_korby" type="xs:string" />
+                          <xs:element name="pancir_veze" type="xs:string" />
+                          <xs:element name="potomek" type="xs:string" />
+                          <xs:element name="predchudce" type="xs:string" />
+                          <xs:element name="rozptyl_na_100m" type="xs:string" />
+                          <xs:element name="posadka_clenu" type="xs:unsignedByte" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="palivo" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="typ" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="title" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

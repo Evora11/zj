@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="tankopedie.xsl"?>
+<tankopedie xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tankopedie.xsd">
+	<tanky title="Seznam tanků">
+		<kategorie typ="Tezke tanky">
+			<tank id="01" palivo="benzin" produkcni="ano" vykonny="ano">
+				<nazev>Tiger I</nazev>
+                <vyrobce>Porsche</vyrobce>
+				<delo>88 mm</delo>
+				
+				<uloha>vsestranny tezky tank</uloha>
+				<rychlost_strelby>15 ran/min</rychlost_strelby>
+				<hmotnost>55,54 t</hmotnost>
+                <nosnost>57 t</nosnost>
+                <vykon_motoru>650 hp</vykon_motoru>
+                <merný_vykon>11,70 hp/t</merný_vykon>
+                <puvod>Nemecko</puvod>
+                <maximalni_rychlost>40 km/h</maximalni_rychlost>
+                <rychlost_otaceni>24 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>24 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>130 ks</kapacita_munice>
+                <pancir_korby>100 / 80 / 80 mm</pancir_korby>
+                <pancir_veze>100 / 80 / 80 mm</pancir_veze>
+                <potomek>Tiger II</potomek>
+                <predchudce>VK 36.01</predchudce>
+                <rozptyl_na_100m>0,35 m</rozptyl_na_100m>
+                <posadka_clenu>5</posadka_clenu>
+			</tank>
+			
+			<tank id="02" palivo="nafta" produkcni="ne" vykonny="ano">
+				<nazev>T26E5 PATRIOT</nazev>
+                <vyrobce>Chrysler</vyrobce>
+				<delo>90 mm</delo>
+				<uloha>prulomovy tezky tank</uloha>
+				<rychlost_strelby>8,33 ran/min</rychlost_strelby>
+				<hmotnost>46,40 t</hmotnost>
+                <nosnost>50 t</nosnost>
+                <vykon_motoru>704 hp</vykon_motoru>
+                <merný_vykon>15,17 hp/t</merný_vykon>
+                <puvod>USA</puvod>
+                <maximalni_rychlost>40,20 km/h</maximalni_rychlost>
+                <rychlost_otaceni>30 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>25 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>70 ks</kapacita_munice>
+                <pancir_korby>150 / 90 / 90 mm</pancir_korby>
+                <pancir_veze>152 / 76 / 50 mm</pancir_veze>
+                <potomek>T26E6</potomek>
+                <predchudce>M4A3E2</predchudce>
+                <rozptyl_na_100m>0,38 m</rozptyl_na_100m>
+                <posadka_clenu>5</posadka_clenu>
+			</tank>
+			
+           <tank id="03" palivo="nafta" produkcni="ano" vykonny="ano">
+				<nazev>KV-1</nazev>
+                <vyrobce>Klement Vorushilov</vyrobce>
+				<delo>57 mm</delo>
+				<uloha>vsestranny tezky tank</uloha>
+				<rychlost_strelby>15 ran/min</rychlost_strelby>
+				<hmotnost>47,41 t</hmotnost>
+                <nosnost>47,80 t</nosnost>
+                <vykon_motoru>450 hp</vykon_motoru>
+                <merný_vykon>9,49 hp/t</merný_vykon>
+                <puvod>SSSR</puvod>
+                <maximalni_rychlost>34 km/h</maximalni_rychlost>
+                <rychlost_otaceni>18 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>24 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>135 ks</kapacita_munice>
+                <pancir_korby>75 / 75 / 70 mm</pancir_korby>
+                <pancir_veze>90 / 75 / 75 mm</pancir_veze>
+                <potomek>KV-2</potomek>
+                <predchudce>T - 28</predchudce>
+                <rozptyl_na_100m>0,46 m</rozptyl_na_100m>
+                <posadka_clenu>5</posadka_clenu>
+			</tank>
+			
+            <tank id="04" palivo="nafta" produkcni="ano" vykonny="ano">
+				<nazev>WZ-111</nazev>
+                <vyrobce>WZ</vyrobce>
+				<delo>122 mm</delo>
+				<uloha>prulomovy tezky tank</uloha>
+				<rychlost_strelby>4,80 ran/min</rychlost_strelby>
+				<hmotnost>44,50 t</hmotnost>
+                <nosnost>48 t</nosnost>
+                <vykon_motoru>600 hp</vykon_motoru>
+                <merný_vykon>13,48 hp/t</merný_vykon>
+                <puvod>Cinska lidova republika</puvod>
+                <maximalni_rychlost>50 km/h</maximalni_rychlost>
+                <rychlost_otaceni>26 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>26 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>45 ks</kapacita_munice>
+                <pancir_korby>120 / 120 / 60 mm</pancir_korby>
+                <pancir_veze>230 / 120 / 60 mm</pancir_veze>
+                <potomek>N/A</potomek>
+                <predchudce>T - 10</predchudce>
+                <rozptyl_na_100m>0,42 m</rozptyl_na_100m>
+                <posadka_clenu>4</posadka_clenu>
+			</tank>
+		</kategorie>
+        
+        <kategorie typ="Stredni tanky">
+            <tank id="05" palivo="nafta" produkcni="ne" vykonny="ano">
+				<nazev>RENAULT G1</nazev>
+                <vyrobce>RENAULT</vyrobce>
+				<delo>75 mm</delo>
+				<uloha>vsestranny stredni tank</uloha>
+				<rychlost_strelby>14,63 ran/min</rychlost_strelby>
+				<hmotnost>32 t</hmotnost>
+                <nosnost>33 t</nosnost>
+                <vykon_motoru>350 hp</vykon_motoru>
+                <merný_vykon>10,94 hp/t</merný_vykon>
+                <puvod>Francie</puvod>
+                <maximalni_rychlost>40 km/h</maximalni_rychlost>
+                <rychlost_otaceni>28 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>30 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>150 ks</kapacita_munice>
+                <pancir_korby>60 / 60 / 60 mm</pancir_korby>
+                <pancir_veze>60 / 60 / 60 mm</pancir_veze>
+                <potomek>Renault G1R</potomek>
+                <predchudce>N/A</predchudce>
+                <rozptyl_na_100m>0,43 m</rozptyl_na_100m>
+                <posadka_clenu>4</posadka_clenu>
+			</tank>
+			
+            <tank id="06" palivo="benzin" produkcni="ano" vykonny="ano">
+				<nazev>CENTURION MK. I</nazev>
+                <vyrobce>Vickers</vyrobce>
+				<delo>77 mm</delo>
+				<uloha>vsestranny stredni tank</uloha>
+				<rychlost_strelby>14,29 ran/min</rychlost_strelby>
+				<hmotnost>42,35 t</hmotnost>
+                <nosnost>43 t</nosnost>
+                <vykon_motoru>600 hp</vykon_motoru>
+                <merný_vykon>14,17 hp/t</merný_vykon>
+                <puvod>Velka Britanie</puvod>
+                <maximalni_rychlost>50 km/h</maximalni_rychlost>
+                <rychlost_otaceni>34 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>38 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>96 ks</kapacita_munice>
+                <pancir_korby>76 / 50 / 38 mm</pancir_korby>
+                <pancir_veze>127 / 76 / 76 mm</pancir_veze>
+                <potomek>CENTURION MK. 7/I</potomek>
+                <predchudce>COMET</predchudce>
+                <rozptyl_na_100m>0,34 m</rozptyl_na_100m>
+                <posadka_clenu>4</posadka_clenu>
+			</tank>
+        
+
+             <tank id="07" palivo="benzin" produkcni="ne" vykonny="ano">
+				<nazev>TYPE 61</nazev>
+                <vyrobce>Mitsubishi</vyrobce>
+				<delo>90 mm</delo>
+				<uloha>vsestranny stredni tank</uloha>
+				<rychlost_strelby>10 ran/min</rychlost_strelby>
+				<hmotnost>34,62 t</hmotnost>
+                <nosnost>34,62 t</nosnost>
+                <vykon_motoru>650 hp</vykon_motoru>
+                <merný_vykon>18,78 hp/t</merný_vykon>
+                <puvod>Japonsko</puvod>
+                <maximalni_rychlost>45 km/h</maximalni_rychlost>
+                <rychlost_otaceni>46 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>42 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>50 ks</kapacita_munice>
+                <pancir_korby>55 / 45 / 25 mm</pancir_korby>
+                <pancir_veze>70 / 60 / 35 mm</pancir_veze>
+                <potomek>STB-1</potomek>
+                <predchudce>STA-1</predchudce>
+                <rozptyl_na_100m>0,36 m</rozptyl_na_100m>
+                <posadka_clenu>4</posadka_clenu>
+			</tank>
+            
+           <tank id="08" palivo="benzin" produkcni="ne" vykonny="ne">
+				<nazev>Skoda T - 25</nazev>
+                <vyrobce>Skoda</vyrobce>
+				<delo>75 mm</delo>
+				<uloha>vsestranny stredni tank</uloha>
+				<rychlost_strelby>12 ran/min</rychlost_strelby>
+				<hmotnost>22,81 t</hmotnost>
+                <nosnost>23 t</nosnost>
+                <vykon_motoru>450 hp</vykon_motoru>
+                <merný_vykon>19,73 hp/t</merný_vykon>
+                <puvod>Ceskoslovensko</puvod>
+                <maximalni_rychlost>60 km/h</maximalni_rychlost>
+                <rychlost_otaceni>25 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>32 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>70 ks</kapacita_munice>
+                <pancir_korby>50 / 35 / 35 mm</pancir_korby>
+                <pancir_veze>50 / 35 / 35 mm</pancir_veze>
+                <potomek>N/A</potomek>
+                <predchudce>T - 24</predchudce>
+                <rozptyl_na_100m>0,40 m</rozptyl_na_100m>
+                <posadka_clenu>4</posadka_clenu>
+			</tank>
+        </kategorie>
+		
+		        <kategorie typ="Lehke tanky">
+           <tank id="09" palivo="nafta" produkcni="ano" vykonny="ne">
+				<nazev>L-60</nazev>
+                <vyrobce>Landsverk AB</vyrobce>
+				<delo>20 mm</delo>
+				<uloha>vsestranny lehky tank</uloha>
+				<rychlost_strelby>85,02 ran/min</rychlost_strelby>
+				<hmotnost>7,30 t</hmotnost>
+                <nosnost>8 t</nosnost>
+                <vykon_motoru>160 hp</vykon_motoru>
+                <merný_vykon>21,92 hp/t</merný_vykon>
+                <puvod>Svedsko</puvod>
+                <maximalni_rychlost>48 km/h</maximalni_rychlost>
+                <rychlost_otaceni>45 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>44 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>640 ks</kapacita_munice>
+                <pancir_korby>13 / 13 / 7 mm</pancir_korby>
+                <pancir_veze>13 / 13 / 13 mm</pancir_veze>
+                <potomek>Stridsvagn m/38</potomek>
+                <predchudce>N/A</predchudce>
+                <rozptyl_na_100m>0,35 m</rozptyl_na_100m>
+                <posadka_clenu>3</posadka_clenu>
+			</tank>
+        
+         <tank id="010" palivo="nafta" produkcni="ne" vykonny="ano">
+				<nazev>CS-53</nazev>
+                <vyrobce>N/A</vyrobce>
+				<delo>100 mm</delo>
+				<uloha>vsestranny lehky tank</uloha>
+				<rychlost_strelby>5 ran/min</rychlost_strelby>
+				<hmotnost>5,54 t</hmotnost>
+                <nosnost>6 t</nosnost>
+                <vykon_motoru>250 hp</vykon_motoru>
+                <merný_vykon>45,12 hp/t</merný_vykon>
+                <puvod>Polsko</puvod>
+                <maximalni_rychlost>40 km/h</maximalni_rychlost>
+                <rychlost_otaceni>24 stupňů/s</rychlost_otaceni>
+                <rychlost_rotace_veze>24 stupňů/s</rychlost_rotace_veze>
+                <kapacita_munice>160 ks</kapacita_munice>
+                <pancir_korby>10 / 8 / 8 mm</pancir_korby>
+                <pancir_veze>10 / 8 / 8 mm</pancir_veze>
+                <potomek>CS-54</potomek>
+                <predchudce>CS-52</predchudce>
+                <rozptyl_na_100m>0,35 m</rozptyl_na_100m>
+                <posadka_clenu>2</posadka_clenu>
+			</tank>
+                    </kategorie>
+
+       
+    </tanky>
+</tankopedie>
+
+
